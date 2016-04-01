@@ -1,0 +1,12 @@
+.reseaux ul{
+    list-style: none;
+    padding: 0
+}
+.inline{
+    display: inline-block;
+    font-size: 6em
+}
+.blue{
+    color: #5A9AE2;
+    font-weight: lighter;;
+}

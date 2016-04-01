@@ -117,81 +117,150 @@
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Title 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="col-sm-4 custom-dropdown">
+                <select id="monts" name="monts">
+                    <option value="">--</option>
+                    <option value="AlpesS">Alpes du Sud</option>
+                    <option value="AlpesN">Alpes du Nord</option>
+                    <option value="Jura">Jura / Vosges</option>
+                    <option value="Massif">Massif Central</option>
+                    <option value="Pyrennees">Pyrenées</option>
+                </select>
+            </div>
+            <div class="col-sm-4 custom-dropdown">
+                <select id="stations" name="stations">
+                    <option value="">--</option>
+                    <option value="Le-Devoluy" class="AlpesS">Le Devoluy</option>
+                    <option value="Serre-Chevalier" class="AlpesS">Serre Chevalier</option>
+                    <option value="Chatel" class="AlpesN">Chatel</option>
+                    <option value="Les-2-Alpes" class="AlpesN">Les 2 Alpes</option>
+                    <option value="Champ-du-Feu" class="Jura">Champ du Feu</option>
+                    <option value="Bresse" class="Jura">La Bresse</option>
+                    <option value="Super" class="Massif">Super Besse</option>
+                    <option value="Lioran" class="Massif">Le Lioran</option>
+                    <option value="Andorre" class="Pyrennees">Andorre</option>
+                    <option value="Pyrenees-2000" class="Pyrennees">Pyrenees 2000</option>
+                </select>
+            </div>
+            <div class="col-sm-4 custom-dropdown">
+                <select id="mark" name="mark">
+                    <option value="">---</option>
+                    <optgroup label="Armada" value="marque1" class="Le-Devoluy marque">
+                        <option value="ski1" class="Le-Devoluy ski">. AR7</option>
+                        <option value="ski2" class="Le-Devoluy ski">. B-Dog</option>
+                    </optgroup>
+                    <optgroup label="Dynastar" value="marque2" class="Serre-Chevalier marque">
+                        <option value="ski3" class="Serre-Chevalier ski">Cham 2.0 117</option>
+                        <option value="ski4" class="Serre-Chevalier ski">Course WC Premium</option>
+                    </optgroup>
+                    <optgroup label="Salomon" value="marque3" class="Chatel marque">
+                        <option value="ski5" class="Chatel ski">MTN Lab</option>
+                        <option value="ski6" class="Chatel ski">X-Race Lab 175</option>
+                    </optgroup>
+                    <optgroup label="Rossignol" value="marque4" class="Les-2-Alpes marque">
+                        <option value="ski7" class="Les-2-Alpes ski">Smash 7</option>
+                        <option value="ski8" class="Les-2-Alpes ski">Hero Master R21 WC</option>
+                    </optgroup>
+                    <optgroup label="Lacroix" value="marque5" class="Champ-du-Feu marque">
+                        <option value="ski9" class="Champ-du-Feu ski">Ultime Lady</option>
+                        <option value="ski10" class="Champ-du-Feu ski">Mach Carbon</option>
+                    </optgroup>
+                    <optgroup label="Armada" value="marque5" class="Bresse marque">
+                        <option value="ski9" class="Bresse ski">AR7</option>
+                        <option value="ski10" class="Bresse ski">B-Dog</option>
+                    </optgroup>
+                    <optgroup label="Dynastar" value="marque5" class="Super marque">
+                        <option value="ski9" class="Super ski">Cham 2.0 117</option>
+                        <option value="ski10" class="Super ski">Course WC Premium</option>
+                    </optgroup>
+                    <optgroup label="Salomon" value="marque5" class="Lioran marque">
+                        <option value="ski9" class="Lioran ski">MTN Lab</option>
+                        <option value="ski10" class="Lioran ski">X-Race Lab 175</option>
+                    </optgroup>
+                    <optgroup label="Rossignol" value="marque5" class="Andorre marque">
+                        <option value="ski9" class="Andorre ski">Smash 7</option>
+                        <option value="ski10" class="Andorre ski">Hero Master R21 WC</option>
+                    </optgroup>
+                    <optgroup label="Lacroix" value="marque5" class="Pyrenees-2000 marque">
+                        <option value="ski9" class="Pyrenees-2000 ski">Ultime Lady</option>
+                        <option value="ski10" class="Pyrenees-2000 ski">Mach Carbon</option>
+                    </optgroup>
+                </select>
+            </div>
+        </div>
+        <div class="row valide">
+            <div class="col-sm-12">
+                <button class="btn btn-primary btn-lg" type="button" name="button">Valider</button>
             </div>
         </div>
     </section>
 
     <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <!-- TITLE MODAL START -->
-                <div class="col-sm-12 portfolio-item">
-                    <a href="#portfolioModal0" class="portfolio-link" data-toggle="modal">
-                        <img src="http://placehold.it/150x300" class="img-responsive" alt="Photo Station">
-                    </a>
-                    <a href="#portfolioModal0" class="portfolio-link" data-toggle="modal">
-                        <img src="http://placehold.it/150x300" class="img-responsive" alt="Photo Station">
-                    </a>
-                    <a href="#portfolioModal0" class="portfolio-link" data-toggle="modal">
-                        <img src="http://placehold.it/150x300" class="img-responsive" alt="Photo Station">
-                    </a>
-                    <a href="#portfolioModal0" class="portfolio-link" data-toggle="modal">
-                        <img src="http://placehold.it/150x300" class="img-responsive" alt="Photo Station">
-                    </a>
-                </div> <!-- TITLE MODAL END -->
-                <!-- CONTENT MODAL START -->
-                <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-hidden="true">
-                    <div class="modal-content">
-                        <div class="close-modal" data-dismiss="modal">
-                            <i class="fa fa-times"></i>
-                        </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-8 col-sm-offset-2">
-                                    <div class="modal-body">
-                                        <h2>Station X</h2>
+    <!-- <section id="download" class="content-section text-center">
+    <div class="download-section">
+    <div class="container">
 
-                                        <div class="head-modal">
-                                            <div class="left-modal">
-                                                <img class="img-responsive center-block" src="http://placehold.it/300x200" alt="Photo Station">
-                                            </div>
-                                            <div class="right-modal">
-                                                <h4>Marques dispo</h4>
-                                                <p>Marque 1, marque 2, marque 3</p>
-                                                <h4>Coordonnée</h4>
-                                                <ul>
-                                                    <li>Adresse: djksfdsfkdfhs</li>
-                                                    <li>Tel: 64546466454</li>
-                                                    <li>mail: kdjsjkqssldkqks</li>
-                                                </ul>
-                                            </div>
-                                        </div>
+    <div class="col-sm-12 portfolio-item">
+    <a href="#portfolioModal0" class="portfolio-link" data-toggle="modal">
+    <img src="http://placehold.it/150x300" class="img-responsive" alt="Photo Station">
+</a>
+<a href="#portfolioModal0" class="portfolio-link" data-toggle="modal">
+<img src="http://placehold.it/150x300" class="img-responsive" alt="Photo Station">
+</a>
+<a href="#portfolioModal0" class="portfolio-link" data-toggle="modal">
+<img src="http://placehold.it/150x300" class="img-responsive" alt="Photo Station">
+</a>
+<a href="#portfolioModal0" class="portfolio-link" data-toggle="modal">
+<img src="http://placehold.it/150x300" class="img-responsive" alt="Photo Station">
+</a>
+</div>
 
-                                        <h3>Description:</h3>
-                                        <p class="content">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                        </p>
-                                        <div class="pack">
-                                            <img class="img-responsive center-block" src="img/pack.png" alt="Pack ski" />
-                                        </div>
-                                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fermer</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- CONTENT MODAL END -->
-            </div>
-        </div>
-    </section>
+<div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-content">
+<div class="close-modal" data-dismiss="modal">
+<i class="fa fa-times"></i>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-sm-8 col-sm-offset-2">
+<div class="modal-body">
+<h2>Station X</h2>
 
-    <!-- Contact Section -->
+<div class="head-modal">
+<div class="left-modal">
+<img class="img-responsive center-block" src="http://placehold.it/300x200" alt="Photo Station">
+</div>
+<div class="right-modal">
+<h4>Marques dispo</h4>
+<p>Marque 1, marque 2, marque 3</p>
+<h4>Coordonnée</h4>
+<ul>
+<li>Adresse: djksfdsfkdfhs</li>
+<li>Tel: 64546466454</li>
+<li>mail: kdjsjkqssldkqks</li>
+</ul>
+</div>
+</div>
+
+<h3>Description:</h3>
+<p class="content">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<div class="pack">
+<img class="img-responsive center-block" src="img/pack.png" alt="Pack ski" />
+</div>
+<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fermer</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section> -->
+
     <section id="contact" class="container content-section text-center">
         <div class="row reseaux">
             <div class="col-md-2 col-md-offset-1 facebook inline"><h3 class="blue">FACEBOOK</h3>
@@ -226,45 +295,21 @@
                     </a></li>
                 </ul>
             </div>
-            <!-- <div class="col-lg-8 col-lg-offset-2">
-            <h2>Contact Start Bootstrap</h2>
-            <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-            <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-        </p>
-        <ul class="list-inline banner-social-buttons">
-        <li>
-        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-    </li>
-    <li>
-    <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-</li>
-<li>
-<a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-</li>
-</ul>
-</div> -->
-</div>
-</section>
 
-<!-- Footer -->
-<footer>
-    <div class="container text-center">
-        <p>Copyright &copy; Your Website 2014</p>
-    </div>
-</footer>
+        </div>
+    </section>
 
-<!-- jQuery -->
-<script src="js/jquery.js"></script>
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Your Website 2014</p>
+        </div>
+    </footer>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
-
-<!-- Plugin JavaScript -->
-<script src="js/jquery.easing.min.js"></script>
-
-
-<!-- Custom Theme JavaScript -->
-<script src="js/script.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.chained.min.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 

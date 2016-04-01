@@ -1,8 +1,8 @@
 /*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+* Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+* Code licensed under the Apache License v2.0.
+* For details, see http://www.apache.org/licenses/LICENSE-2.0.
+*/
 
 body {
     width: 100%;
@@ -373,10 +373,10 @@ body {
 }
 
 .portfolio-modal .close-modal {
-  position: fixed;
-  top: 25px;
-  right: 30px;
-  cursor: pointer;
+    position: fixed;
+    top: 25px;
+    right: 30px;
+    cursor: pointer;
 }
 
 .modal-content {
@@ -409,12 +409,12 @@ body {
 }
 
 .full-screen {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .slider{
-  padding: 0;
+    padding: 0;
 }
 
 .reseaux ul{
@@ -428,4 +428,35 @@ body {
 .blue{
     color: #5A9AE2;
     font-weight: lighter;;
+}
+
+/* Custom dropdown */
+.custom-dropdown {
+    font-size: 1.2em;
+}
+
+.custom-dropdown select {
+    background-color: #5A9AE2;
+    color: #fff;
+    padding: .5em;
+    padding-right: 2.5em;
+    border: 0;
+    margin: 0;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.custom-dropdown select[disabled] {
+    color: rgba(176, 176, 176, 0.88);
+}
+
+.ski {
+    color: #fff;
+}
+optgroup {
+    color: #dddddd;
+}
+
+.valide {
+    margin: 20px 0;
 }

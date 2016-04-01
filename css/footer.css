@@ -1,3 +1,6 @@
+a:hover{
+    color: #5A9AE2;
+}
 .reseaux ul{
     list-style: none;
     padding: 0
@@ -5,23 +8,39 @@
 .reseaux{
     margin-bottom: 5em
 }
-footer a{
+.reseaux a{
+    color:#515251;
+}
+.reseaux ul li{
+    display: inline-block;
+}
+.reseaux i{
+    font-size: 3em
+}
+/*footer a{
     color:#515251;
 }
 footer i{
     text-align: center;
-}
+}*/
 .contact i {
-    margin-right: 1em
+    margin-right: 1em;
+    color: #5A9AE2;
+}
+.contact a{
+    color:#515251;
 }
 .inline{
     display: inline-block;
     font-size: 6em
 }
-.blue{
+/*.blue{
     color: #5A9AE2;
     font-weight: lighter;;
-}
+}*/
 .margin-bottom{
     margin-bottom: 2em
+}
+footer{
+    font-size: 1.7em
 }

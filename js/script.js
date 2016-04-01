@@ -29,7 +29,7 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 $('.carousel').carousel({
-  interval: 3000,
+  interval: 5000,
   pause: "false"
 });
 var $item = $('.carousel .item');

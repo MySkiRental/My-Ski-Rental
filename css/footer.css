@@ -19,10 +19,10 @@ i.arrow{
 #leasing{
     background: url(../img/telesiege.jpg) no-repeat;
     background-size: cover;
-    padding: 450px;
+    padding: 450px 0;
 }
 #number{
-    padding: 400px;
+    padding: 400px 0;
 }
 #contact{
     background-image: url(../img/Contact.jpg);

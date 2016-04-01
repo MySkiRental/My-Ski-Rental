@@ -11,7 +11,23 @@ i.arrow{
     left:50%;
     font-size: 5em;
     color: white;
+}
+#about {
+    padding: 250px;
+}
 
+#leasing{
+    background: url(../img/telesiege.jpg) no-repeat;
+    background-size: cover;
+    padding: 450px;
+}
+#number{
+    padding: 400px;
+}
+#contact{
+    background-image: url(../img/Contact.jpg);
+    padding-top: 270px;
+    padding-bottom: 263px
 }
 .reseaux ul{
     list-style: none;

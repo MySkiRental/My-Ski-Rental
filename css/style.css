@@ -407,3 +407,12 @@ body {
 .head-modal .right-modal h4 {
     margin: 0;
 }
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.slider{
+  padding: 0;
+}

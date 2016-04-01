@@ -12,22 +12,33 @@ i.arrow{
     font-size: 5em;
     color: white;
 }
+header {
+    height: 100vh;
+}
 #about {
-    padding: 250px;
+    height: 100vh;
+    padding-top: 20vh;
+}
+
+.carousel-caption h3 {
+    margin: 100px 0;
 }
 
 #leasing{
     background: url(../img/telesiege.jpg) no-repeat;
     background-size: cover;
-    padding: 450px 0;
+    height: 100vh;
+    padding-top: 50vh;
 }
 #number{
-    padding: 400px 0;
+    height: 100vh;
+    padding-top: 40vh;
 }
 #contact{
-    background-image: url(../img/Contact.jpg);
-    padding-top: 270px;
-    padding-bottom: 263px
+    background: url(../img/Contact.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 40vh;
 }
 .reseaux ul{
     list-style: none;

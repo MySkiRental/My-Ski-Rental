@@ -1,0 +1,46 @@
+a:hover{
+    color: #5A9AE2;
+}
+nav i{
+    font-size: 1.5em
+}
+i.arrow{
+    z-index: 100;
+    position: absolute;
+    top: 88%;
+    left:50%;
+    font-size: 5em;
+    color: grey;
+
+}
+.reseaux ul{
+    list-style: none;
+    padding: 0
+}
+.reseaux,.contact{
+    margin-bottom: 5em;
+    margin-top: 5em
+}
+.reseaux a{
+    color:white;
+}
+.reseaux ul li{
+    display: inline-block;
+}
+.reseaux i{
+    font-size: 3em
+}
+.contact i {
+    margin-right: 1em;
+    color: #5A9AE2;
+}
+.contact a{
+    color:white;
+}
+.inline{
+    display: inline-block;
+    font-size: 6em
+}
+.margin-bottom{
+    margin-bottom: 1em
+}

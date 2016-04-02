@@ -102,7 +102,7 @@ header {
     }
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 720px) {
     #leasing{
         padding-top: 20vh;
     }

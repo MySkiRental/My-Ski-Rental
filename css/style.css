@@ -528,6 +528,14 @@ optgroup {
     font-size: 2em;
 }
 
+footer a {
+    color: #5A9AE2;
+}
+
+footer a:hover {
+    border-bottom: 1px solid #5A9AE2;
+}
+
 @media only screen and (max-width: 1024px) {
   span {
     margin-bottom: 200px;

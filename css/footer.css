@@ -17,7 +17,8 @@ header {
 }
 #about {
     height: 100vh;
-    background: #000;
+    background: #fff;
+    color: #000;
 }
 
 .carousel-caption h3 {
@@ -25,12 +26,14 @@ header {
 }
 
 #leasing{
-    background: url(../img/telesiege.jpg) no-repeat;
-    background-size: cover;
     height: 100vh;
     padding-top: 50vh;
+    background: #ffffff;
+    color: #000;
 }
 #number{
+    background: url(../img/telesiege.jpg) no-repeat;
+    background-size: cover;
     height: 100vh;
     padding-top: 40vh;
 }

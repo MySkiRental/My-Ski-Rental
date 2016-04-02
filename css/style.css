@@ -398,17 +398,23 @@ body {
     cursor: pointer;
 }
 
+.btn-lg {
+    padding: .5em 5em;
+    font-size: 1.5em;
+}
+
 .modal-content {
-    min-height: 80%;
+    min-height: 100vh;
     min-width: 101.2%;
     margin: auto;
     color: #333;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3));
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.1));
 }
 
 .close-modal {
     font-size: 500%;
     z-index: 100;
+    color: #fff;
 }
 
 .modal-body img {
@@ -418,6 +424,10 @@ body {
 
 .modal-body li {
     font-size: 1.2em;
+}
+
+.modal-body h2 {
+    margin: 50px 0;
 }
 
 .portfolio-item .img-responsive {
@@ -500,7 +510,7 @@ optgroup {
 
 .counter {
   font-size: 7em;
-  color: #555;
+  color: #C1C1C1;
   display: inline-block;
   font-weight: 400;
   font-family: 'Righteous', cursive;
@@ -510,9 +520,12 @@ optgroup {
   font-size:20px;
 }
 
-section#number {
-    background: #000;
+.closeB {
+    margin-top: 20px;
+}
 
+.rating {
+    font-size: 2em;
 }
 
 @media only screen and (max-width: 1024px) {

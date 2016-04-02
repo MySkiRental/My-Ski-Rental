@@ -121,4 +121,7 @@ header {
     .btn-lg {
         font-size: 30px;
     }
+    #contact div {
+        display: block;
+    }
 }

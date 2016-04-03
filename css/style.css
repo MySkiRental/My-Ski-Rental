@@ -60,6 +60,10 @@ a {
     transition: all .2s ease-in-out;
 }
 
+.titreh2 {
+    height: 30%;
+}
+
 .titreh2 h2 {
     color: #5A9AE2;
     font-size: 3em;
@@ -503,9 +507,12 @@ optgroup {
     color: #dddddd;
 }
 
+.liste {
+    height: 35%;
+}
+
 .valide {
-    margin: 10em 0 2em 0;
-    padding: 1em 5em;
+    height: 20%;
 }
 
 .valide a {
@@ -543,7 +550,7 @@ footer a:hover {
 
 @media only screen and (max-width: 1024px) {
   span {
-    margin-bottom: 200px;
+    margin-bottom: 10px;
   }
 }
 

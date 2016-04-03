@@ -104,7 +104,7 @@ header {
 
 @media all and (max-width: 720px) {
     #leasing{
-        padding-top: 20vh;
+        padding-top: 0;
     }
     #number{
         padding-top: 10vh;
@@ -122,6 +122,9 @@ header {
         font-size: 30px;
     }
     #contact div {
+        display: block;
+    }
+    footer span {
         display: block;
     }
 }

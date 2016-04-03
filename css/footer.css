@@ -49,7 +49,6 @@ header {
 }
 .reseaux,.contact{
     margin-bottom: 5em;
-    margin-top: 5em
 }
 .reseaux a{
     color:white;
@@ -97,7 +96,7 @@ header {
         font-size: 30px;
     }
     .row.valide {
-        margin: 2em 0;
+        margin: 5em 0;
         padding: 0;
     }
 }

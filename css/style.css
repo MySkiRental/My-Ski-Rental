@@ -401,7 +401,7 @@ body {
 }
 
 .portfolio-modal .close-modal {
-    position: fixed;
+    position: absolute;
     top: 25px;
     right: 30px;
     cursor: pointer;
